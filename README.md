@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is from Kaggle and is called Cyber Security Indexes. It consists of various cybersecurity and digital development indices that measure different aspects of a country’s cybersecurity posture. This dataset includes attributes from sources like the International Telecommunication Union (ITU) and the e-Governance Academy Foundation, among others. It contains the following attributes for each country:
+The data I propose to visualize for my project is from [Kaggle](https://www.kaggle.com/datasets/katerynameleshenko/cyber-security-indexes?resource=download) and is called Cyber Security Indexes. It consists of various cybersecurity and digital development indices that measure different aspects of a country’s cybersecurity posture. It contains the following attributes for each country:
 
 * Cybersecurity Exposure Index (CEI): Measures a country's exposure to cybersecurity risks.
 * Global Cyber Security Index (GCI): Ranks countries based on their cybersecurity commitment on a global scale.
@@ -11,7 +11,7 @@ The data I propose to visualize for my project is from Kaggle and is called Cybe
 * Country: The name or code of the country.
 * Region: The geographical region the country belongs to.
 
-This visualization project will be valuable valuable for cybersecurity professionals, policy makers, and researchers. For cybersecurity professionals, it helps identify high-risk areas and countries with strong or weak cybersecurity preparedness. Policy makers can use the data to assess their country’s performance and allocate resources to areas that need improvement. Researchers can analyze global trends and the relationship between digital development and cybersecurity preparedness. I plan to focus on visualizing the comparison of all four indexes across two different countries. So far, I planned to use a radar chart to allow comparisons between the two countries. However, I would like to do multiple visualizations to be able to show case trends among all countries, not just two.  I will likely move away from the idea of a radar chart entirely to better showcase the trends between the indexes on a much more global scale and across multiple regions. It's important to visually see as many different trends using many channels.
+This visualization project will be valuable for cybersecurity professionals, policymakers, and researchers. For cybersecurity professionals, it helps identify high-risk areas and countries with strong or weak cybersecurity preparedness. Policymakers can use the data to assess their country’s performance and allocate resources to areas that need improvement. Researchers can analyze global trends and the relationship between digital development and cybersecurity preparedness. I plan to focus on visualizing the comparison of all four indexes across two different countries. So far, I have planned to use a radar chart to allow comparisons between the two countries. However, I would like to do multiple visualizations to showcase trends among all countries, not just two.  I will likely move away from the idea of a radar chart entirely to better showcase the trends between the indexes on a much more global scale and across multiple regions. It's important to visually see as many different trends as possible using many channels.
 
 
 ## Questions & Tasks
@@ -32,59 +32,43 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
-
 I've created and modified two different sketches. The first a radar chart as an example allowing users to compare two different countries indexes. The two quadrilaterals would be overlayed one another and be two different colors. This would allow us to make direct comparisons between countries.
 
-#image
+![Radar Sketch](https://github.com/user-attachments/assets/dbd36f86-1eae-4454-bb65-fb675148283b)
 
 The second is a scaterplot using marker, x position, and y position to show comparissons and correlations between two attributes among all of the regions. Color could also possibly be added to this using gradients, but that may not convey very well.
 
-#image
+![Scatter Sketch](https://github.com/user-attachments/assets/e5a05714-0780-455f-aede-ccc0e8034917)
 
 Thirdly, I have a bubble chart using size, color, x, and y position likely to indicate 3 different attributes along with region using the color.
 
-#image
-
+![Bubble Sketch](https://github.com/user-attachments/assets/52723e2e-5dcc-4edb-a758-60022fc8d796)
 
 ## Prototypes
 
 I’ve created a proof of concept visualization of this data. It's what a radar chart might look like with a single country on it. It did reveal to me some concerns about this methodology when trying to accomplish the tasks that I set out to.
 
+[![Radar Viz](https://github.com/user-attachments/assets/8d06447e-08ae-4861-bb00-3a796ded3d07)](https://vizhub.com/chain-mage/radar)
+
 Another proof of concept that I made was this scatterplot comparing two of the indexes across all 193 countries. It also showed me some issues I amy run into with the missing data.
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+[![Scatter Viz](https://github.com/user-attachments/assets/0beb762b-be9b-49e8-aedc-18e884d23f0d)](https://vizhub.com/chain-mage/gciandcei)
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can put images into here by pasting them into issues.
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
 ## Open Questions
 
 I have many concerns when it comes to this project, but I'm up to the challenge:
 
-* There is a bit of missing data in the dataset and I hope to address while still leaving the information useful.
-* If the project is only for one major visualization, I will likely move away the radar chart idea.
-* My goal is showcase trends and among the indexes across regions and my plan for that is to make a scatter plot using different marks and channels to convey multiple attributes at once. If I allow people to hover over each mark on the scatterplot, they should be able to see all info, possible viewing all four indexes at once. I also want to show correlation information for each region between the indexes.
+* There is a bit of missing data in the dataset, and I hope to address it while still leaving the information useful.
+* If the project is only for one major visualization, I will likely move away from the radar chart idea.
+* My goal is to showcase trends among the indexes across regions, and my plan for that is to make a scatter plot using different marks and channels to convey multiple attributes at once. If I allow people to hover over each mark on the scatterplot, they should be able to see all the info, viewing all four indexes at once. I also want to show correlation information for each region between the indexes.
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
-
 * Week 8: I want to have the dataset completely display on a scatterplot to see how bad the missing data is to decide which indexes I should focus on, as I may have to drop one since I can only think of 3 channels to convey them.
-* Week 9: I would like to address my missing data, make a decision on my marks and channels, and creat a legend from there. The also come up with default values for missing data as I would like to avoid dropping rows.
-* Week 10: Having addressed the issue of missing information, I would like to either aggregate averages among the indexes within regions to create a bubble chart to using the regions or find a way to implement all countries at once, but that in unlikely since we have 193 to work with. 
-* Week 11: I would like to implement a mouse followe that would show all indexes when hovering over a country. If the bubble charted is aggregated by regions, then I would have a search bar for a user to input a country, and it's information would show up.
+* Week 9: I would like to address my missing data, decide on my marks and channels, and create a legend from there. I would also like to come up with default values for missing data to avoid dropping rows.
+* Week 10: Having addressed the issue of missing information, I would like to either aggregate averages among the indexes within regions to create a bubble chart to use the regions or find a way to implement all countries at once, but that is unlikely since we have 193 to work with. 
+* Week 11: I would like to implement a mouse follower that would show all indexes when hovering over a country. If the bubble chart is aggregated by regions, then I would have a search bar for a user to input a country, and its information would show up.
 * Week 12: Have the bare bones elements and functionality completed, documenting how it address tasks and ensuring feedback is implemented.
-* Week 13: Polish visual elements, ensuring clarity in color, size, and marks for the indices, Refine interactions like the mouse follower or search bar for smooth functionality.
+* Week 13: Polish visual elements, ensuring clarity in color, size, and marks for the indices, and refine interactions like the mouse follower or search bar for smooth functionality.
 * Week 14: Finalize all project features, ensuring everything works smoothly.
