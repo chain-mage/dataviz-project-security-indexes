@@ -50,11 +50,11 @@ The bubble chart could be modified in the following ways. This bubble chart coul
 
 I’ve created a proof of concept visualization of this data. It's a global heatmap to showcase the average salary in each nation where we have data.
 
-[![Map Viz](https://github.com/user-attachments/assets/8d06447e-08ae-4861-bb00-3a796ded3d07)](https://vizhub.com/chain-mage/map).
+![Map Viz](https://github.com/user-attachments/assets/beda53d8-7bbf-404f-8b39-bc9326d543cb)(https://vizhub.com/chain-mage/map).
 
 Another proof of concept that I made was this scatterplot comparing salary and the remote ratio.
 
-[![Scatter Viz 2](https://github.com/user-attachments/assets/0beb762b-be9b-49e8-aedc-18e884d23f0d)](https://vizhub.com/chain-mage/remotetosalary).
+[![Scatter Viz 2](https://github.com/user-attachments/assets/432f93e3-61a7-4d79-bd67-3b624fe1a539)](https://vizhub.com/chain-mage/remotetosalary).
 
 
 
