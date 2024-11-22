@@ -50,19 +50,17 @@ The bubble chart could be modified in the following ways. This bubble chart coul
 
 I’ve created a proof of concept visualization of this data. It's a global heatmap to showcase the average salary in each nation where we have data.
 
-[![World Map Viz](https://github.com/user-attachments/assets/8d06447e-08ae-4861-bb00-3a796ded3d07)](https://vizhub.com/chain-mage/map).
+[![Map Viz](https://github.com/user-attachments/assets/8d06447e-08ae-4861-bb00-3a796ded3d07)](https://vizhub.com/chain-mage/map).
 
 Another proof of concept that I made was this scatterplot comparing salary and the remote ratio.
 
-[![Scatter Viz](https://github.com/user-attachments/assets/0beb762b-be9b-49e8-aedc-18e884d23f0d)](https://vizhub.com/chain-mage/remotetosalary).
+[![Scatter Viz 2](https://github.com/user-attachments/assets/0beb762b-be9b-49e8-aedc-18e884d23f0d)](https://vizhub.com/chain-mage/remotetosalary).
 
 
 
 ## Milestones
 * Week 10: Having switched to a new data set. I would like to continue using the global map for a heat map of different salaries and create another kind of chart to show the relationship between salaries, job titles, and remote ratios.
-* Week 11: I would like to implement a mouse follower that would show specific maps based on salary averages of different size companies and possibly even job titles.![Map Viz](![Scatter Viz 2](https://github.com/user-attachments/assets/e9c55590-ba4c-4135-a2df-f9519ded5b6f)
-https://github.com/user-attachments/assets/0ef79eef-e47d-40d8-8cbb-e69a5cc170ed)
-
+* Week 11: I would like to implement a mouse follower that would show specific maps based on salary averages of different size companies and possibly even job titles.
 * Week 12: Have the bare bones elements and functionality completed, documenting how it addresses tasks.
 * Week 13: Polish visual elements, ensuring clarity in color, size, and possibly as a zoom peature for each country, and refine interactions like the mouse follower or search bar for smooth functionality.
 * Week 14: Finalize all project features, ensuring everything works smoothly.
