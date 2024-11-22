@@ -2,44 +2,47 @@
 
 ## Data
 
-For week 9, I have taken a hard pivot from my previous data set, due to incomplete data. I've shifted to a new data set on global Cyber Security salaries, which can also be found on[Kaggle](https://www.kaggle.com/datasets/deepcontractor/cyber-security-salaries). It contains the following attributes for each country:
+For week 9, I have taken a hard pivot from my previous data set, due to incomplete data. I've shifted to a new data set on global Cyber Security salaries, which can also be found on [Kaggle](https://www.kaggle.com/datasets/deepcontractor/cyber-security-salaries). It contains the following attributes for each job and position:
 
-* Cybersecurity Exposure Index (CEI): Measures a country's exposure to cybersecurity risks.
-* Global Cyber Security Index (GCI): Ranks countries based on their cybersecurity commitment on a global scale.
-* National Cyber Security Index (NCSI): Reflects national capacity to handle cyber threats.
-* Digital Development Level (DDL): Indicates the level of digital development and technology penetration.
-* Country: The name or code of the country.
-* Region: The geographical region the country belongs to.
+* work_year: The year the salary data corresponds to.
+* experience_level: The level of experience of the employee.
+* employment_type: The type of employmentFull-Time, Part-Time, etc.
+* job_title: The specific title of the job.
+* salary: The salary amount as reported in the currency of the respective job.
+* salary_currency: The currency in which the salary is reported.
+* salary_in_usd: The salary amount converted to USD for standardization.
+* employee_residence: The country where the employee resides.
+* remote_ratio: The percentage of the job done remotely. 0% for fully on-site, 100% for fully remote.
+* company_location: The country where the company is headquartered.
+* company_size: The size of the company, Small (S), Medium (M), or Large (L).
 
 This visualization project will be valuable for cybersecurity professionals, policymakers, and researchers. For cybersecurity professionals, it helps identify where they would make more money or have more room to negotiate slaries. Policymakers can use the data to assess their country’s investment in cyber security within the private sector. I plan to focus on visualizing the average salaries of cyber positions across the globe for various size companies.
 
 ## Questions & Tasks
 
-The following tasks and questions will drive the visualization and interaction decisions for this project:
+* The following tasks and questions will drive the visualization and interaction decisions for this project:
 
-* How do different regions compare in terms of their Cybersecurity Exposure Index (CEI), Global Cyber Security Index (GCI), and National Cyber Security Index (NCSI)?
+* How do salaries compare across different employee residence countries and company locations?
 
-* What is the relationship between a region’s Digital Development Level (DDL) and its cybersecurity indices?
+* How do salaries vary across companies of different sizes (Small, Medium, Large)?
 
-* Are there any regions where high cybersecurity risks (CEI) are accompanied by strong national policies (NCSI)?
+* Are there any job titles, experience levels, or geographic regions with particularly high salaries that stand out as outliers?
 
-* Are the different regional correlations among the indexes?
+* Do certain job titles or sectors within the cybersecurity domain consistently pay more?
 
-* Can we identify outlier regions where the cybersecurity indices (CEI, GCI, NCSI) do not follow global trends?
-
-* Which regions have a particularly high National Cyber Security Index (NCSI) compared to the Global Cyber Security Index (GCI)?
+* Are there significant correlations between factors such as experience level, remote work, and salary?
 
 ## Sketches
 
-I've created and modified two different sketches. The first a radar chart as an example allowing users to compare two different countries indexes. The two quadrilaterals would be overlayed one another and be two different colors. This would allow us to make direct comparisons between countries.
+The sketches that I created for the previous data set are still apliccable, but withe different labels of course. TFor example the radar chart would allow us to make comparisons of remote work, experience level, and salary, and employment type (eployment type ranging from contract/part-time/fulltime) between different job titles and positons.
 
 ![Radar Sketch](https://github.com/user-attachments/assets/dbd36f86-1eae-4454-bb65-fb675148283b)
 
-The second is a scaterplot using marker, x position, and y position to show comparissons and correlations between two attributes among all of the regions. Color could also possibly be added to this using gradients, but that may not convey very well.
+This scatterplot uses marker shape, x-position, and y-position to explore the relationship between remote work percentage (remote_ratio) and salaries. Marker shapes could specify specific job title or countries.
 
 ![Scatter Sketch](https://github.com/user-attachments/assets/e5a05714-0780-455f-aede-ccc0e8034917)
 
-Thirdly, I have a bubble chart using size, color, x, and y position likely to indicate 3 different attributes along with region using the color.
+The bubble chart could be modified in the following ways. This bubble chart could use x-position, y-position, bubble size, and color to compare job titles. The x-axis could represent average salaries, the y-axis the percentage of remote work, and bubble size the frequency of that job title in the dataset. Each bubble color could represent company size (Small/Medium/Large).
 
 ![Bubble Sketch](https://github.com/user-attachments/assets/52723e2e-5dcc-4edb-a758-60022fc8d796)
 
@@ -56,11 +59,8 @@ Another proof of concept that I made was this scatterplot comparing salary and t
 
 
 ## Milestones
-
-* Week 8: I want to have the dataset completely display on a scatterplot to see how bad the missing data is to decide which indexes I should focus on, as I may have to drop one since I can only think of 3 channels to convey them.
-* Week 9: I would like to address my missing data, decide on my marks and channels, and create a legend from there. I would also like to come up with default values for missing data to avoid dropping rows.
-* Week 10: Having addressed the issue of missing information, I would like to either aggregate averages among the indexes within regions to create a bubble chart to use the regions or find a way to implement all countries at once, but that is unlikely since we have 193 to work with. 
-* Week 11: I would like to implement a mouse follower that would show all indexes when hovering over a country. If the bubble chart is aggregated by regions, then I would have a search bar for a user to input a country, and its information would show up.
-* Week 12: Have the bare bones elements and functionality completed, documenting how it address tasks and ensuring feedback is implemented.
-* Week 13: Polish visual elements, ensuring clarity in color, size, and marks for the indices, and refine interactions like the mouse follower or search bar for smooth functionality.
+* Week 10: Having switched to a new data set. I would like to continue using the global map for a heat map of different salaries and create another kind of chart to show the relationship between salaries, job titles, and remote ratios.
+* Week 11: I would like to implement a mouse follower that would show specific maps based on salary averages of different size companies and possibly even job titles.
+* Week 12: Have the bare bones elements and functionality completed, documenting how it addresses tasks.
+* Week 13: Polish visual elements, ensuring clarity in color, size, and possibly as a zoom peature for each country, and refine interactions like the mouse follower or search bar for smooth functionality.
 * Week 14: Finalize all project features, ensuring everything works smoothly.
