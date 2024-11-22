@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is from [Kaggle](https://www.kaggle.com/datasets/katerynameleshenko/cyber-security-indexes?resource=download) and is called Cyber Security Indexes. It consists of various cybersecurity and digital development indices that measure different aspects of a country’s cybersecurity posture. It contains the following attributes for each country:
+For week 9, I have taken a hard pivot from my previous data set, due to incomplete data. I've shifted to a new data set on global Cyber Security salaries, which can also be found on[Kaggle](https://www.kaggle.com/datasets/deepcontractor/cyber-security-salaries). It contains the following attributes for each country:
 
 * Cybersecurity Exposure Index (CEI): Measures a country's exposure to cybersecurity risks.
 * Global Cyber Security Index (GCI): Ranks countries based on their cybersecurity commitment on a global scale.
@@ -11,8 +11,7 @@ The data I propose to visualize for my project is from [Kaggle](https://www.kagg
 * Country: The name or code of the country.
 * Region: The geographical region the country belongs to.
 
-This visualization project will be valuable for cybersecurity professionals, policymakers, and researchers. For cybersecurity professionals, it helps identify high-risk areas and countries with strong or weak cybersecurity preparedness. Policymakers can use the data to assess their country’s performance and allocate resources to areas that need improvement. Researchers can analyze global trends and the relationship between digital development and cybersecurity preparedness. I plan to focus on visualizing the comparison of all four indexes across countries and regions. So far, I have planned to use a radar chart to allow comparisons between the two countries. However, I would like to do multiple visualizations to showcase trends among all countries, not just two.  I will likely move away from the idea of a radar chart entirely to better showcase the trends between the indexes on a much more global scale and across multiple regions. It's important to visually see as many different trends as possible using many channels.
-
+This visualization project will be valuable for cybersecurity professionals, policymakers, and researchers. For cybersecurity professionals, it helps identify where they would make more money or have more room to negotiate slaries. Policymakers can use the data to assess their country’s investment in cyber security within the private sector. I plan to focus on visualizing the average salaries of cyber positions across the globe for various size companies.
 
 ## Questions & Tasks
 
@@ -46,22 +45,15 @@ Thirdly, I have a bubble chart using size, color, x, and y position likely to in
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's what a radar chart might look like with a single country on it. It did reveal to me some concerns about this methodology when trying to accomplish the tasks that I set out to.
+I’ve created a proof of concept visualization of this data. It's a global heatmap to showcase the average salary in each nation where we have data.
 
-[![Radar Viz](https://github.com/user-attachments/assets/8d06447e-08ae-4861-bb00-3a796ded3d07)](https://vizhub.com/chain-mage/radar)
+[![World Map Viz](https://github.com/user-attachments/assets/8d06447e-08ae-4861-bb00-3a796ded3d07)](https://vizhub.com/chain-mage/radar)
 
-Another proof of concept that I made was this scatterplot comparing two of the indexes across all 193 countries. It also showed me some issues I amy run into with the missing data.
+Another proof of concept that I made was this scatterplot comparing salary and the remote ratio.
 
 [![Scatter Viz](https://github.com/user-attachments/assets/0beb762b-be9b-49e8-aedc-18e884d23f0d)](https://vizhub.com/chain-mage/gciandcei)
 
 
-## Open Questions
-
-I have many concerns when it comes to this project, but I'm up to the challenge:
-
-* There is a bit of missing data in the dataset, and I hope to address it while still leaving the information useful.
-* If the project is only for one major visualization, I will likely move away from the radar chart idea.
-* My goal is to showcase trends among the indexes across regions, and my plan for that is to make a scatter plot using different marks and channels to convey multiple attributes at once. If I allow people to hover over each mark on the scatterplot, they should be able to see all the info, viewing all four indexes at once. I also want to show correlation information for each region between the indexes.
 
 ## Milestones
 
