@@ -16,7 +16,7 @@ For week 9, I have taken a hard pivot from my previous data set, due to incomple
 * company_location: The country where the company is headquartered.
 * company_size: The size of the company, Small (S), Medium (M), or Large (L).
 
-This visualization project will be valuable for cybersecurity professionals, policymakers, and researchers. For cybersecurity professionals, it helps identify where they would make more money or have more room to negotiate slaries. Policymakers can use the data to assess their country’s investment in cyber security within the private sector. I plan to focus on visualizing the average salaries of cyber positions across the globe for various size companies.
+This visualization project will be valuable for cybersecurity professionals, policymakers, and researchers. For cybersecurity professionals, it helps identify where they would make more money or have more room to negotiate slaries. Policymakers can use the data to assess their country’s investment in cyber security within the private sector. I plan to focus on visualizing the average salaries of cyber positions across the globe for various size companies. I will likely make a global map with bubbles to show salaries for various countries and company sizes.
 
 ## Questions & Tasks
 
@@ -59,7 +59,7 @@ Another proof of concept that I made was this scatterplot comparing salary and t
 
 
 ## Milestones
-* Week 10: Having switched to a new data set. I would like to continue using the global map for a heat map of different salaries and create another kind of chart to show the relationship between salaries, job titles, and remote ratios.
+* Week 10: Having switched to a new data set. I would like to continue using the global map for a heat map of different salaries and create another kind of chart to show the relationship between salaries, job titles, and remote ratios. I will likely make a global map with bubbles to show salaries for various countries, company sizes.
 * Week 11: I would like to implement a mouse follower that would show specific maps based on salary averages of different size companies and possibly even job titles.
 * Week 12: Have the bare bones elements and functionality completed, documenting how it addresses tasks.
 * Week 13: Polish visual elements, ensuring clarity in color, size, and possibly as a zoom peature for each country, and refine interactions like the mouse follower or search bar for smooth functionality.
