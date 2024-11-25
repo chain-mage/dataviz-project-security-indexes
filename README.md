@@ -6,7 +6,7 @@ For week 11, I have pivoted to a globe that can be rotated by clicking and dragg
 
 ## Current State
 
-[![Viz Globe](https://github.com/user-attachments/assets/b00c60c3-2c33-471b-a6e2-89eac1d455e4)](https://vizhub.com/chain-mage/week11)
+[![Viz Globe](https://github.com/user-attachments/assets/b00c60c3-2c33-471b-a6e2-89eac1d455e4)](https://vizhub.com/chain-mage/week11) 
 Click on Picture to go to VizHub.
 
 
