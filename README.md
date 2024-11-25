@@ -6,7 +6,7 @@ For week 10, I have successfully pivoted to a project revolving around salaries 
 
 ## Current State
 
-[![Viz Globe](https://github.com/user-attachments/assets/2ed09950-948e-411f-a73c-4bcc67a78d69)](https://vizhub.com/chain-mage/week11)
+[![Viz Globe](https://github.com/user-attachments/assets/b00c60c3-2c33-471b-a6e2-89eac1d455e4)](https://vizhub.com/chain-mage/week11)
 Click on Picture to go to VizHub.
 
 
