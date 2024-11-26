@@ -1,4 +1,4 @@
-# Cyber Index Data Visualization Project
+# Cyber Salary Data Visualization Project
 
 ## Data
 
