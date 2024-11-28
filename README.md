@@ -215,7 +215,17 @@ Click on Picture to go to VizHub.
 
 ## Week 14 Updates
 
-For Week 14, I really wanted to showcase what this kind of visualization was capable of showing. So, I took some UN information one male and female populations of earth by country catagorized by select age groups. Then I wittled down the information to strictly being years, population of women, population of men, population of children, and country. I also added 2 sliders to adjust the offset 
+For Week 14, I really wanted to showcase what this kind of visualization was capable of showing. I felt like I really needed a more complete dataset. So, I took some UN information one male and female populations of earth by country catagorized by select age groups. Then I wittled down the information to strictly being years, population of women, population of men, population of children, and country. Then with a CSV to JSON converter, I created JSON data to use in this visualization and altered my code to work with this new dataset. I also added 2 sliders to the visualization to adjust the offset and the year being represented on the globe. This is really the culmination of what I set out to do with this project. I've listed the features below.
+
+Features:
+
+* Hover over country bubbles to display detailed values and labels.
+* Rotate the globe by left-clicking and dragging.
+* Zoom in and out to explore clustered areas more closely.
+* An information box dynamically updates with country-specific data for country last hovered over.
+* A color-coded legend represents different data categories.
+* A title box for the visualization.
+* The background features a space theme
 
 ## Current State
 
