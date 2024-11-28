@@ -212,3 +212,16 @@ Click on Picture to go to VizHub.
 
 ## Next Milestones
 * Week 14: Finalize all project features, report, and ensuring everything works smoothly.
+
+## Week 14 Updates
+
+For Week 14, I really wanted to showcase what this kind of visualization was capable of showing. So, I took some UN information one male and female populations of earth by country catagorized by select age groups. Then I wittled down the information to strictly being years, population of women, population of men, population of children, and country. I also added 2 sliders to adjust the offset 
+
+## Current State
+
+
+[![Final](https://github.com/user-attachments/assets/9a849772-2e3e-4593-b7cf-c410d60eb3ff)](https://vizhub.com/chain-mage/country-population)
+
+
+
+Click on Picture to go to VizHub.
