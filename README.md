@@ -65,7 +65,6 @@ I have many concerns when it comes to this project, but I'm up to the challenge:
 
 ## Milestones
 
-* Week 8: I want to have the dataset completely display on a scatterplot to see how bad the missing data is to decide which indexes I should focus on, as I may have to drop one since I can only think of 3 channels to convey them.
 * Week 9: I would like to address my missing data, decide on my marks and channels, and create a legend from there. I would also like to come up with default values for missing data to avoid dropping rows.
 * Week 10: Having addressed the issue of missing information, I would like to either aggregate averages among the indexes within regions to create a bubble chart to use the regions or find a way to implement all countries at once, but that is unlikely since we have 193 to work with. 
 * Week 11: I would like to implement a mouse follower that would show all indexes when hovering over a country. If the bubble chart is aggregated by regions, then I would have a search bar for a user to input a country, and its information would show up.
