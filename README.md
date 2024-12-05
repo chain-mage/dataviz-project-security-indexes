@@ -234,3 +234,14 @@ Features:
 
 
 Click on Picture to go to VizHub.
+
+## Future Work
+
+Over the course of this project, I had some longstanding goals that I figured I would leave for future work just due to time constraints.
+
+* Different channels for population information (Pie charts, bar graphs, histograms) to populate information box.
+* Give option for pie charts instead of bubbles on the globe.
+* Create a more accurate drawing of the globe and graticules to represent every UN region.
+* Provide the ability to search by country in a search bar.
+* Create a method to lock in two countries to compare them and their populations.
+* Add additional metrics (such as happiness index, CO2 Emissions, and GDP) and see if they correlate in anyway to populations.
